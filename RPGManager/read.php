@@ -1,0 +1,11 @@
+<table>
+    <tr>
+        <th>id</th>
+        <th>username</th>
+        <th>password</th>
+    </tr>
+    <?php
+        require("model.php");
+        readRecord($_SESSION['user_id_in']);
+    ?>
+</table>
